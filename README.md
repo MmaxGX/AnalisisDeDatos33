@@ -52,3 +52,5 @@
    ```bash
    docker rm -f jupyter # Eliminar contenedor
    docker rmi -f 222f5d7d304c # Eliminar imagen
+
+Esta es una prueba
