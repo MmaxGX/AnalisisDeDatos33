@@ -35,13 +35,13 @@
    ```bash
    docker build --no-cache -t jupyter_notebook .
 
-2. Listar las iamgenes
+2. Listar las imagenes
    ```bash
    docker images
 
 3. ejecutar o levantar el contenedor
    ```bash
-   docker run -d -p 8000:8888 --name jupyter jupyter_notebook 
+   docker run -d -p 8000:8888 --name my_jupyter jupyter_notebook 
 
 4. listar los contenedores
 
@@ -50,7 +50,7 @@
 
 5. Comandos adicionales
    ```bash
-   docker rm -f jupyter # Eliminar contenedor
+   docker rm -f my_jupyter # Eliminar contenedor
    docker rmi -f 222f5d7d304c # Eliminar imagen
 
-Esta es una prueba
+-- pip install -r requirements.txt # instalar paquetes desde un archivo
