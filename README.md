@@ -54,3 +54,14 @@
    docker rmi -f 222f5d7d304c # Eliminar imagen
 
 -- pip install -r requirements.txt # instalar paquetes desde un archivo
+
+# Comando Composer
+
+0. Navegar a la carpeta
+
+   cd Sesion3/utils
+
+1. Levantar el servicio
+
+   docker compose up
+
